@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragmentos.F_Todas">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_registros"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="30dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_password" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/FAB_AgregarPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:contentDescription="@string/FAB_AgregarPassword"
+            android:src="@drawable/icono_agregar" />
+
+    </RelativeLayout>
+</layout>

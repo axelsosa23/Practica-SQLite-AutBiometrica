@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Password App</string>
+
+    <!--Drawer Menu-->
+    <string name="Option_Todas">Todas</string>
+    <string name="Option_Ajustes">Ajustes</string>
+    <string name="Option_Salir">Salir</string>
+
+    <!--Drawer Menu-->
+    <string name="Nav_drawe_open">Open</string>
+    <string name="Nav_drawe_close">Close</string>
+
+    <!--FAB-->
+    <string name="FAB_AgregarPassword">Agregar</string>
+
+    <!--DISEÑO AGREGAR PASSWORD-->
+    <string name="EtTitulo">Titulo</string>
+    <string name="EtCuenta">Cuenta</string>
+    <string name="EtNombreUsuario">Nombre de usuario</string>
+    <string name="EtPassword">Contraseña</string>
+    <string name="EtSitioWeb">Sitio Web</string>
+    <string name="EtNota">Nota</string>
+
+    <!--MENU AGREGAR PASSWORD-->
+    <string name="Guardar_Password">Guardar</string>
+
+    <!--MENU FRAGMENTO TODAS-->
+    <string name="menu_numero_registros">Número de registros</string>
+    <string name="menu_buscar_registros">Buscar registros</string>
+
+
+    <!--ITEM PASSWORD-->
+    <string name="Item_Titulo">Titulo</string>
+    <string name="Item_Cuenta">Cuenta</string>
+    <string name="Item_nombre_usuario">Nombre de usuario</string>
+    <string name="Item_Password">Password</string>
+    <string name="Item_Sitio_Web">Sitio Web</string>
+    <string name="Item_Nota">Nota</string>
+
+    <!--DIALOGO - NUMERO DE REGISTROS-->
+    <string name="txtTotal">Total de registros: </string>
+
+    <string name="total">--</string>
+    <string name="btnEntendidoTotal">Entendido</string>
+</resources>
